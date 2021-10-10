@@ -1,0 +1,145 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+    background-color: slateblue;
+}
+.githubUsers{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.card{
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    width: 90%;
+    height: auto;
+    margin: 60px auto;
+}
+h1{
+    font-size: 28px;
+    padding: 15px;
+    margin-top: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0 auto;
+    color: whitesmoke;
+}
+
+h2 {
+    display: inline-block;
+    font-size: 23px;
+    padding: 8px;
+    margin-top: 30px;
+    font-weight: 700;
+    max-width: 220px;
+    border-radius: 8px;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    margin: 0 auto;
+    text-align: center;
+}
+.date{
+    max-width: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.lUpdate{
+    max-width: 400px;
+}
+
+.dateOfCreate{
+    display: block;
+    width: 100%;
+}
+h3, p{
+    display: inline-block;
+    font-size: 22px;
+    padding: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    max-width: 600px;
+    border-radius: 8px;
+    color: whitesmoke;
+    margin: 0 auto;
+    text-align: center;
+}
+h2:hover{
+    background-color: slateblue;
+    color: whitesmoke;
+    border: 3px solid whitesmoke;
+    margin: 0 auto;
+    text-align: center;
+}
+.numberOfRepos{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.repos{
+    display: block;
+    font-size: 23px;
+    padding: 8px;
+    font-weight: 700;
+    max-width: 320px;
+    border-radius: 8px;
+    margin: 0 auto 15px auto;
+}
+.search{
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: slateblue;
+    background-color: whitesmoke;
+    border: 3px solid slateblue;
+    margin: 0 auto;
+    
+}
+.search:hover{
+    color: whitesmoke;
+    background-color: slateblue;
+    border: 3px solid whitesmoke;
+    margin: 0 auto;
+    
+}
+.result{
+    display: inline-block;
+    width: 100px;
+    color: whitesmoke;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0 auto;
+}
+.dateResult{
+    width: 400px;
+    letter-spacing: .25rem;
+}
+.username{
+    display: block;
+    min-width: 200px;
+    padding: 5px;
+    background-color: whitesmoke;
+    color: slateblue;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 25px auto;
+    text-align: center;
+    margin: 0 auto;
+}
+img {
+    display: block;
+    width: 300px;
+    border-radius: 50%;
+    background-size: contain;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+  }
